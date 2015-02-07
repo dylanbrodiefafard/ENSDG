@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <response>
+    <Version>2</Version>
+    <Date>2015-02-07 00:26:14</Date>
+    <StatusCode>
+      <Inputs>
+        <Input>
+          <Status>
+            <StatusCode>0</StatusCode>
+            <Message>Success</Message>
+          </Status>
+        </Input>
+      </Inputs>
+    </StatusCode>
+    <Systems>
+      <System>
+        <ID>760</ID>
+        <Name>Alpha Centauri</Name>
+        <Coord>
+          <double>3.03125</double>
+          <double>-0.09375</double>
+          <double>3.15625</double>
+        </Coord>
+        <ConfidenceRating>5</ConfidenceRating>
+        <CommanderCreate>FD</CommanderCreate>
+        <CreateDate>2014-11-25 17:25:11</CreateDate>
+        <CommanderUpdate>FD</CommanderUpdate>
+        <UpdateDate>2014-11-25 17:25:11</UpdateDate>
+      </System>
+      <System>
+        <ID>1810</ID>
+        <Name>Barnard's Star</Name>
+        <Coord>
+          <double>-3.03125</double>
+          <double>1.375</double>
+          <double>4.9375</double>
+        </Coord>
+        <ConfidenceRating>5</ConfidenceRating>
+        <CommanderCreate>FD</CommanderCreate>
+        <CreateDate>2014-11-25 17:25:11</CreateDate>
+        <CommanderUpdate>FD</CommanderUpdate>
+        <UpdateDate>2014-11-25 17:25:11</UpdateDate>
+      </System>
+      <System>
+        <ID>4368</ID>
+        <Name>Duamta</Name>
+        <Coord>
+          <double>2.1875</double>
+          <double>6.625</double>
+          <double>-7</double>
+        </Coord>
+        <ConfidenceRating>5</ConfidenceRating>
+        <CommanderCreate>FD</CommanderCreate>
+        <CreateDate>2014-11-25 17:25:11</CreateDate>
+        <CommanderUpdate>FD</CommanderUpdate>
+        <UpdateDate>2014-11-25 17:25:11</UpdateDate>
+      </System>
+      <System>
+        <ID>4583</ID>
+        <Name>Epsilon Eridani</Name>
+        <Coord>
+          <double>1.9375</double>
+          <double>-7.75</double>
+          <double>-6.84375</double>
+        </Coord>
+        <ConfidenceRating>5</ConfidenceRating>
+        <CommanderCreate>FD</CommanderCreate>
+        <CreateDate>2014-11-25 17:25:11</CreateDate>
+        <CommanderUpdate>FD</CommanderUpdate>
+        <UpdateDate>2014-11-25 17:25:11</UpdateDate>
+      </System>
+      <System>
+        <ID>4586</ID>
+        <Name>Epsilon Indi</Name>
+        <Coord>
+          <double>3.125</double>
+          <double>-8.875</double>
+          <double>7.125</double>
+        </Coord>
+        <ConfidenceRating>5</ConfidenceRating>
+        <CommanderCreate>FD</CommanderCreate>
+        <CreateDate>2014-11-25 17:25:11</CreateDate>
+        <CommanderUpdate>FD</CommanderUpdate>
+        <UpdateDate>2014-11-25 17:25:11</UpdateDate>
+      </System>
+      <System>
+        <ID>4718</ID>
+        <Name>EZ Aquarii</Name>
+        <Coord>
+          <double>-4.4375</double>
+          <double>-9.3125</double>
+          <double>4.09375</double>
+        </Coord>
+        <ConfidenceRating>5</ConfidenceRating>
+        <CommanderCreate>FD</CommanderCreate>
+        <CreateDate>2014-11-25 17:25:11</CreateDate>
+        <CommanderUpdate>FD</CommanderUpdate>
+        <UpdateDate>2014-11-25 17:25:11</UpdateDate>
+      </System>
+      <System>
+        <ID>4949</ID>
+        <Name>G 41-14</Name>
+        <Coord>
+          <double>7.9375</double>
+          <double>7.71875</double>
+          <double>-9.4375</double>
+        </Coord>
+        <ConfidenceRating>5</ConfidenceRating>
+        <CommanderCreate>FD</CommanderCreate>
+        <CreateDate>2014-11-25 17:25:11</CreateDate>
+        <CommanderUpdate>FD</CommanderUpdate>
+        <UpdateDate>2014-11-25 17:25:11</UpdateDate>
+      </System>
+      <System>
+        <ID>5448</ID>
+        <Name>Groombridge 34</Name>
+        <Coord>
+          <double>-9.90625</double>
+          <double>-3.6875</double>
+          <double>-5.09375</double>
+        </Coord>
+        <ConfidenceRating>5</ConfidenceRating>
+        <CommanderCreate>FD</CommanderCreate>
+        <CreateDate>2014-11-25 17:25:11</CreateDate>
+        <CommanderUpdate>FD</CommanderUpdate>
+        <UpdateDate>2014-11-25 17:25:11</UpdateDate>
+      </System>
+      <System>
+        <ID>20656</ID>
+        <Name>Kapteyn's Star</Name>
+        <Coord>
+          <double>9.75</double>
+          <double>-7.46875</double>
+          <double>-3.46875</double>
+        </Coord>
+        <ConfidenceRating>2</ConfidenceRating>
+        <CommanderCreate>Draelnor</CommanderCreate>
+        <CreateDate>2014-12-09 09:34:56</CreateDate>
+        <CommanderUpdate>Juguard</CommanderUpdate>
+        <UpdateDate>2015-01-03 23:17:00</UpdateDate>
+      </System>
+      <System>
+        <ID>11382</ID>
+        <Name>Lacaille 8760</Name>
+        <Coord>
+          <double>-0.6875</double>
+          <double>-9.09375</double>
+          <double>9.09375</double>
+        </Coord>
+        <ConfidenceRating>5</ConfidenceRating>
+        <CommanderCreate>FD</CommanderCreate>
+        <CreateDate>2014-11-25 17:25:11</CreateDate>
+        <CommanderUpdate>FD</CommanderUpdate>
+        <UpdateDate>2014-11-25 17:25:11</UpdateDate>
+      </System>
+      <System>
+        <ID>11383</ID>
+        <Name>Lacaille 9352</Name>
+        <Coord>
+          <double>-0.40625</double>
+          <double>-9.8125</double>
+          <double>4.21875</double>
+        </Coord>
+        <ConfidenceRating>5</ConfidenceRating>
+        <CommanderCreate>FD</CommanderCreate>
+        <CreateDate>2014-11-25 17:25:11</CreateDate>
+        <CommanderUpdate>FD</CommanderUpdate>
+        <UpdateDate>2014-11-25 17:25:11</UpdateDate>
+      </System>
+      <System>
+        <ID>21013</ID>
+        <Name>Lalande 21185</Name>
+        <Coord>
+          <double>0.3125</double>
+          <double>7.5625</double>
+          <double>-3.375</double>
+        </Coord>
+        <ConfidenceRating>2</ConfidenceRating>
+        <CommanderCreate>Harbinger</CommanderCreate>
+        <CreateDate>2014-12-14 11:12:25</CreateDate>
+        <CommanderUpdate>Harbinger</CommanderUpdate>
+        <UpdateDate>2014-12-14 11:12:26</UpdateDate>
+      </System>
+      <System>
+        <ID>12918</ID>
+        <Name>Luhman 16</Name>
+        <Coord>
+          <double>6.3125</double>
+          <double>0.59375</double>
+          <double>1.71875</double>
+        </Coord>
+        <ConfidenceRating>5</ConfidenceRating>
+        <CommanderCreate>FD</CommanderCreate>
+        <CreateDate>2014-11-25 17:25:11</CreateDate>
+        <CommanderUpdate>FD</CommanderUpdate>
+        <UpdateDate>2014-11-25 17:25:11</UpdateDate>
+      </System>
+      <System>
+        <ID>15740</ID>
+        <Name>Procyon</Name>
+        <Coord>
+          <double>6.21875</double>
+          <double>2.65625</double>
+          <double>-9.1875</double>
+        </Coord>
+        <ConfidenceRating>5</ConfidenceRating>
+        <CommanderCreate>FD</CommanderCreate>
+        <CreateDate>2014-11-25 17:25:11</CreateDate>
+        <CommanderUpdate>FD</CommanderUpdate>
+        <UpdateDate>2014-11-25 17:25:11</UpdateDate>
+      </System>
+      <System>
+        <ID>16129</ID>
+        <Name>Ross 128</Name>
+        <Coord>
+          <double>5.53125</double>
+          <double>9.4375</double>
+          <double>0.125</double>
+        </Coord>
+        <ConfidenceRating>5</ConfidenceRating>
+        <CommanderCreate>FD</CommanderCreate>
+        <CreateDate>2014-11-25 17:25:11</CreateDate>
+        <CommanderUpdate>FD</CommanderUpdate>
+        <UpdateDate>2014-11-25 17:25:11</UpdateDate>
+      </System>
+      <System>
+        <ID>16135</ID>
+        <Name>Ross 154</Name>
+        <Coord>
+          <double>-1.9375</double>
+          <double>-1.84375</double>
+          <double>9.3125</double>
+        </Coord>
+        <ConfidenceRating>5</ConfidenceRating>
+        <CommanderCreate>FD</CommanderCreate>
+        <CreateDate>2014-11-25 17:25:11</CreateDate>
+        <CommanderUpdate>FD</CommanderUpdate>
+        <UpdateDate>2014-11-25 17:25:11</UpdateDate>
+      </System>
+      <System>
+        <ID>21465</ID>
+        <Name>Ross 248</Name>
+        <Coord>
+          <double>-9.3125</double>
+          <double>-3.03125</double>
+          <double>-3.40625</double>
+        </Coord>
+        <ConfidenceRating>2</ConfidenceRating>
+        <CommanderCreate>Palpitations</CommanderCreate>
+        <CreateDate>2014-12-23 22:08:49</CreateDate>
+        <CommanderUpdate>Palpitations</CommanderUpdate>
+        <UpdateDate>2014-12-23 22:08:50</UpdateDate>
+      </System>
+      <System>
+        <ID>16959</ID>
+        <Name>Sirius</Name>
+        <Coord>
+          <double>6.25</double>
+          <double>-1.28125</double>
+          <double>-5.75</double>
+        </Coord>
+        <ConfidenceRating>5</ConfidenceRating>
+        <CommanderCreate>FD</CommanderCreate>
+        <CreateDate>2014-11-25 17:25:11</CreateDate>
+        <CommanderUpdate>FD</CommanderUpdate>
+        <UpdateDate>2014-11-25 17:25:11</UpdateDate>
+      </System>
+      <System>
+        <ID>17054</ID>
+        <Name>Sol</Name>
+        <Coord>
+          <double>0</double>
+          <double>0</double>
+          <double>0</double>
+        </Coord>
+        <ConfidenceRating>5</ConfidenceRating>
+        <CommanderCreate>FD</CommanderCreate>
+        <CreateDate>2014-11-25 17:25:11</CreateDate>
+        <CommanderUpdate>FD</CommanderUpdate>
+        <UpdateDate>2014-11-25 17:25:11</UpdateDate>
+      </System>
+      <System>
+        <ID>21107</ID>
+        <Name>SPF-LF 1</Name>
+        <Coord>
+          <double>2.90625</double>
+          <double>6.3125</double>
+          <double>-9.5625</double>
+        </Coord>
+        <ConfidenceRating>5</ConfidenceRating>
+        <CommanderCreate>FD</CommanderCreate>
+        <CreateDate>2014-12-15 13:58:22</CreateDate>
+        <CommanderUpdate>FD</CommanderUpdate>
+        <UpdateDate>2014-12-15 13:58:22</UpdateDate>
+      </System>
+      <System>
+        <ID>21702</ID>
+        <Name>Teegarden's Star</Name>
+        <Coord>
+          <double>-3.375</double>
+          <double>-7.46875</double>
+          <double>-9.34375</double>
+        </Coord>
+        <ConfidenceRating>2</ConfidenceRating>
+        <CommanderCreate>Cross</CommanderCreate>
+        <CreateDate>2014-12-29 11:45:00</CreateDate>
+        <CommanderUpdate>Cross</CommanderUpdate>
+        <UpdateDate>2014-12-29 11:45:00</UpdateDate>
+      </System>
+      <System>
+        <ID>20297</ID>
+        <Name>UV Ceti</Name>
+        <Coord>
+          <double>-0.1875</double>
+          <double>-8.3125</double>
+          <double>-2.125</double>
+        </Coord>
+        <ConfidenceRating>2</ConfidenceRating>
+        <CommanderCreate>Finwen</CommanderCreate>
+        <CreateDate>2014-12-02 23:02:53</CreateDate>
+        <CommanderUpdate>Finwen</CommanderUpdate>
+        <UpdateDate>2014-12-03 22:17:07</UpdateDate>
+      </System>
+      <System>
+        <ID>19025</ID>
+        <Name>WISE 0855-0714</Name>
+        <Coord>
+          <double>6.53125</double>
+          <double>-2.15625</double>
+          <double>2.03125</double>
+        </Coord>
+        <ConfidenceRating>5</ConfidenceRating>
+        <CommanderCreate>FD</CommanderCreate>
+        <CreateDate>2014-11-25 17:25:11</CreateDate>
+        <CommanderUpdate>FD</CommanderUpdate>
+        <UpdateDate>2014-11-25 17:25:11</UpdateDate>
+      </System>
+      <System>
+        <ID>19026</ID>
+        <Name>WISE 1506+7027</Name>
+        <Coord>
+          <double>-7.375</double>
+          <double>7.09375</double>
+          <double>-2.4375</double>
+        </Coord>
+        <ConfidenceRating>5</ConfidenceRating>
+        <CommanderCreate>FD</CommanderCreate>
+        <CreateDate>2014-11-25 17:25:11</CreateDate>
+        <CommanderUpdate>FD</CommanderUpdate>
+        <UpdateDate>2014-11-25 17:25:11</UpdateDate>
+      </System>
+      <System>
+        <ID>19130</ID>
+        <Name>Wolf 359</Name>
+        <Coord>
+          <double>3.875</double>
+          <double>6.46875</double>
+          <double>-1.90625</double>
+        </Coord>
+        <ConfidenceRating>5</ConfidenceRating>
+        <CommanderCreate>FD</CommanderCreate>
+        <CreateDate>2014-11-25 17:25:11</CreateDate>
+        <CommanderUpdate>FD</CommanderUpdate>
+        <UpdateDate>2014-11-25 17:25:11</UpdateDate>
+      </System>
+    </Systems>
+  </response>
+</Response>
