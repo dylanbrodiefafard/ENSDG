@@ -15,7 +15,13 @@ namespace ENSDG
     {
         static void Main(string[] args)
         {
-            try
+
+            DataGrabber dg = new DataGrabber();
+            Console.ReadKey();
+            // moved most of Program functionality to DataGrabber
+            // so that we can create this as a DLL more easily.
+            
+            /*try
             {
                 string locationsRequest = CreateRequest("New%20York");
                 Response locationsResponse = MakeRequest(locationsRequest);
@@ -25,7 +31,7 @@ namespace ENSDG
             {
                 Console.WriteLine(e.Message);
                 Console.Read();
-            }
+            }*/
         }
 
         public static string CreateRequest(string queryString)
@@ -69,7 +75,7 @@ namespace ENSDG
                         response.StatusCode,
                         response.StatusDescription));
 
-                   // StreamReader st = new StreamReader(response.GetResponseStream());
+                    //StreamReader st = new StreamReader(response.GetResponseStream());
                     //Console.Write("JSON form of Response object: ");
                     //Console.WriteLine(st.ReadToEnd());
                     DataContractJsonSerializer jsonSerializer = new DataContractJsonSerializer(typeof(Response));
