@@ -4,3 +4,9 @@ C:\Workspace\ENSDG\ENSDG\bin\Debug\ENSDG.pdb
 C:\Workspace\ENSDG\ENSDG\obj\Debug\ENSDG.csprojResolveAssemblyReference.cache
 C:\Workspace\ENSDG\ENSDG\obj\Debug\ENSDG.exe
 C:\Workspace\ENSDG\ENSDG\obj\Debug\ENSDG.pdb
+C:\Users\mclellanm\Source\Repos\ENSDG\ENSDG\bin\Debug\ENSDG.exe.config
+C:\Users\mclellanm\Source\Repos\ENSDG\ENSDG\obj\Debug\ENSDG.exe
+C:\Users\mclellanm\Source\Repos\ENSDG\ENSDG\obj\Debug\ENSDG.pdb
+C:\Users\mclellanm\Source\Repos\ENSDG\ENSDG\bin\Debug\ENSDG.exe
+C:\Users\mclellanm\Source\Repos\ENSDG\ENSDG\bin\Debug\ENSDG.pdb
+C:\Users\mclellanm\Source\Repos\ENSDG\ENSDG\obj\Debug\ENSDG.csprojResolveAssemblyReference.cache
