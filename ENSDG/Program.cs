@@ -15,23 +15,11 @@ namespace ENSDG
     {
         private static void Main(string[] args)
         {
-
+            Console.WriteLine("Downloading current database");
             DataGrabber dg = new DataGrabber();
+            
             Console.ReadKey();
-            // moved most of Program functionality to DataGrabber
-            // so that we can create this as a DLL more easily.
 
-            /*try
-            {
-                string locationsRequest = CreateRequest("New%20York");
-                Response locationsResponse = MakeRequest(locationsRequest);
-                ProcessResponse(locationsResponse);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-                Console.Read();
-            }*/
         }
     }
 }

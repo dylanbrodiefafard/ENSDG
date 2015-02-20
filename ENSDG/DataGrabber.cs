@@ -17,7 +17,8 @@ namespace ENSDG
         public DataGrabber()
         {
             // possibly remove this from constructor... 
-            ProcessResponse(MakeRequest(20,0,0,0));
+            ProcessResponse(MakeRequest(20, 0, 0, 0));
+
         }
 
         private HttpWebRequest GenerateWebRequest(Query queryParams)
@@ -47,8 +48,8 @@ namespace ENSDG
         {
             DataContractJsonSerializer jsonSerializer = new DataContractJsonSerializer(typeof(Response));
             object objResponse = jsonSerializer.ReadObject(response.GetResponseStream());
-            Response jsonResponse
-            = objResponse as Response;
+            Response jsonResponse = objResponse as Response;
+            Console.WriteLine(jsonResponse.response.Systems.Length + " systems loaded." );
             return jsonResponse;
         }
 
@@ -81,8 +82,11 @@ namespace ENSDG
         private void ProcessResponse(Response response)
         {
             XmlSerializer x = new XmlSerializer(response.GetType());
-            StreamWriter file = new StreamWriter(DateTime.Now.ToString("yyyyMMdd") + ".xml");
+            String saveFileName = DateTime.Now.ToString("yyyyMMdd") + ".xml";
+            StreamWriter file = new StreamWriter(saveFileName);
             x.Serialize(file, response);
+            file.Close();
+            Console.WriteLine("File Saved: " + saveFileName);
         }
 
     }
