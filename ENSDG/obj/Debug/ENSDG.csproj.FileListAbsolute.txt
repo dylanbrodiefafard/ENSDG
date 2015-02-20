@@ -11,10 +11,10 @@ C:\Users\mclellanm\Source\Repos\ENSDG\ENSDG\bin\Debug\ENSDG.exe
 C:\Users\mclellanm\Source\Repos\ENSDG\ENSDG\bin\Debug\ENSDG.pdb
 C:\Users\mclellanm\Source\Repos\ENSDG\ENSDG\obj\Debug\ENSDG.csprojResolveAssemblyReference.cache
 C:\Users\mikemclellan\Source\Repos\ENSDG\ENSDG\obj\Debug\ENSDG.pdb
-C:\Users\mikemclellan\Source\Repos\ENSDG\ENSDG\bin\Debug\ENSDG.dll.config
-C:\Users\mikemclellan\Source\Repos\ENSDG\ENSDG\bin\Debug\ENSDG.dll
 C:\Users\mikemclellan\Source\Repos\ENSDG\ENSDG\bin\Debug\ENSDG.pdb
 C:\Users\mikemclellan\Source\Repos\ENSDG\ENSDG\obj\Debug\ENSDG.csprojResolveAssemblyReference.cache
-C:\Users\mikemclellan\Source\Repos\ENSDG\ENSDG\obj\Debug\ENSDG.dll
 C:\Users\mikemclellan\Source\Repos\ENSDG\ENSDG\bin\Debug\ENSCC.dll
 C:\Users\mikemclellan\Source\Repos\ENSDG\ENSDG\bin\Debug\ENSCC.pdb
+C:\Users\mikemclellan\Source\Repos\ENSDG\ENSDG\bin\Debug\ENSDG.exe.config
+C:\Users\mikemclellan\Source\Repos\ENSDG\ENSDG\bin\Debug\ENSDG.exe
+C:\Users\mikemclellan\Source\Repos\ENSDG\ENSDG\obj\Debug\ENSDG.exe

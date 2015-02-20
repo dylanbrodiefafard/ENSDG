@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
-//using System.Runtime.Serialization.Json;
+using System.Runtime.Serialization.Json;
 using System.Text;
 using ENSCC;
 using System.Xml.Serialization;
@@ -22,7 +22,7 @@ namespace ENSDG
 
         private Response MakeRequest(string requestUrl)
         {
-            /*try
+            try
             {
                 HttpWebRequest request = WebRequest.Create(requestUrl) as HttpWebRequest;
                 Query queryParams = new Query(20, 0, 0, 0);
@@ -65,8 +65,7 @@ namespace ENSDG
             {
                 Console.WriteLine(e.Message);
                 return null;
-            }*/
-            return null;
+            }
         }
 
         private void ProcessResponse(Response response)

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <response>
+    <Version>2</Version>
+    <Date>2015-02-20 03:26:09</Date>
+    <StatusCode>
+      <Inputs>
+        <Input>
+          <Status>
+            <StatusCode>0</StatusCode>
+            <Message>Success</Message>
+          </Status>
+        </Input>
+      </Inputs>
+    </StatusCode>
+    <Systems>
+      <System>
+        <ID>1</ID>
+        <Name>Un</Name>
+        <Coord>
+          <double>0</double>
+          <double>5</double>
+          <double>0</double>
+        </Coord>
+        <ConfidenceRating>5</ConfidenceRating>
+        <CommanderCreate>FD</CommanderCreate>
+        <CreateDate>2014-11-25 17:25:11</CreateDate>
+        <CommanderUpdate>FD</CommanderUpdate>
+        <UpdateDate>2014-11-25 17:25:11</UpdateDate>
+      </System>
+      <System>
+        <ID>2</ID>
+        <Name>Deux</Name>
+        <Coord>
+          <double>2.5</double>
+          <double>2.5</double>
+          <double>0</double>
+        </Coord>
+        <ConfidenceRating>5</ConfidenceRating>
+        <CommanderCreate>FD</CommanderCreate>
+        <CreateDate>2014-11-25 17:25:11</CreateDate>
+        <CommanderUpdate>FD</CommanderUpdate>
+        <UpdateDate>2014-11-25 17:25:11</UpdateDate>
+      </System>
+      <System>
+        <ID>3</ID>
+        <Name>Trois</Name>
+        <Coord>
+          <double>5</double>
+          <double>0</double>
+          <double>0</double>
+        </Coord>
+        <ConfidenceRating>5</ConfidenceRating>
+        <CommanderCreate>FD</CommanderCreate>
+        <CreateDate>2014-11-25 17:25:11</CreateDate>
+        <CommanderUpdate>FD</CommanderUpdate>
+        <UpdateDate>2014-11-25 17:25:11</UpdateDate>
+      </System>
+      <System>
+        <ID>4</ID>
+        <Name>Quatre?</Name>
+        <Coord>
+          <double>5</double>
+          <double>5</double>
+          <double>0</double>
+        </Coord>
+        <ConfidenceRating>5</ConfidenceRating>
+        <CommanderCreate>FD</CommanderCreate>
+        <CreateDate>2014-11-25 17:25:11</CreateDate>
+        <CommanderUpdate>FD</CommanderUpdate>
+        <UpdateDate>2014-11-25 17:25:11</UpdateDate>
+      </System>
+      <System>
+        <ID>5</ID>
+        <Name>Cinq</Name>
+        <Coord>
+          <double>2</double>
+          <double>2</double>
+          <double>0</double>
+        </Coord>
+        <ConfidenceRating>5</ConfidenceRating>
+        <CommanderCreate>FD</CommanderCreate>
+        <CreateDate>2014-11-25 17:25:11</CreateDate>
+        <CommanderUpdate>FD</CommanderUpdate>
+        <UpdateDate>2014-11-25 17:25:11</UpdateDate>
+      </System>
+      <System>
+        <ID>6</ID>
+        <Name>Sept???</Name>
+        <Coord>
+          <double>4</double>
+          <double>3</double>
+          <double>0</double>
+        </Coord>
+        <ConfidenceRating>5</ConfidenceRating>
+        <CommanderCreate>FD</CommanderCreate>
+        <CreateDate>2014-11-25 17:25:11</CreateDate>
+        <CommanderUpdate>FD</CommanderUpdate>
+        <UpdateDate>2014-11-25 17:25:11</UpdateDate>
+      </System>
+    </Systems>
+  </response>
+</Response>

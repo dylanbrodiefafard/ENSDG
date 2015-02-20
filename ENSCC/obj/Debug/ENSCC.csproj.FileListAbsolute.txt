@@ -1,0 +1,4 @@
+C:\Users\mikemclellan\Source\Repos\ENSDG\ENSCC\bin\Debug\ENSCC.dll
+C:\Users\mikemclellan\Source\Repos\ENSDG\ENSCC\bin\Debug\ENSCC.pdb
+C:\Users\mikemclellan\Source\Repos\ENSDG\ENSCC\obj\Debug\ENSCC.dll
+C:\Users\mikemclellan\Source\Repos\ENSDG\ENSCC\obj\Debug\ENSCC.pdb
