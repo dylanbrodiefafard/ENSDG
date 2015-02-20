@@ -18,3 +18,5 @@ C:\Users\mikemclellan\Source\Repos\ENSDG\ENSDG\bin\Debug\ENSCC.pdb
 C:\Users\mikemclellan\Source\Repos\ENSDG\ENSDG\bin\Debug\ENSDG.exe.config
 C:\Users\mikemclellan\Source\Repos\ENSDG\ENSDG\bin\Debug\ENSDG.exe
 C:\Users\mikemclellan\Source\Repos\ENSDG\ENSDG\obj\Debug\ENSDG.exe
+C:\Users\mclellanm\Source\Repos\ENSDG2\ENSDG\bin\Debug\ENSDG.exe.config
+C:\Users\mclellanm\Source\Repos\ENSDG2\ENSDG\obj\Debug\ENSDG.pdb

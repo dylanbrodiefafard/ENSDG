@@ -12,53 +12,63 @@ namespace ENSDG
 {
     class DataGrabber
     {
-        public string URL = @"http://edstarcoordinator.com/api.asmx/GetSystems";
+        private string URL = @"http://edstarcoordinator.com/api.asmx/GetSystems";
 
         public DataGrabber()
         {
             // possibly remove this from constructor... 
-            ProcessResponse(MakeRequest(URL));
+            ProcessResponse(MakeRequest(20,0,0,0));
         }
 
-        private Response MakeRequest(string requestUrl)
+        private HttpWebRequest GenerateWebRequest(Query queryParams)
         {
-            try
+            HttpWebRequest request = WebRequest.Create(URL) as HttpWebRequest;
+            
+
+            DataContractJsonSerializer ser = new DataContractJsonSerializer(typeof(Query));
+
+            MemoryStream stream1 = new MemoryStream();
+            ser.WriteObject(stream1, queryParams);
+            stream1.Position = 0;
+            if (request != null)
             {
-                HttpWebRequest request = WebRequest.Create(requestUrl) as HttpWebRequest;
-                Query queryParams = new Query(20, 0, 0, 0);
-
-                DataContractJsonSerializer ser = new DataContractJsonSerializer(typeof(Query));
-
-                MemoryStream stream1 = new MemoryStream();
-                ser.WriteObject(stream1, queryParams);
-                stream1.Position = 0;
-
                 request.Method = "POST";
                 request.ContentType = "application/json; charset=utf-8";
                 request.ContentLength = stream1.Length;
-                //request.UserAgent = "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)";
-
-                // add post data to request
                 Stream rs = request.GetRequestStream();
                 ser.WriteObject(rs, queryParams);
                 rs.Flush();
                 rs.Close();
+            }
+            return request;
+        }
+
+        private Response GenerateJsonResponse(HttpWebResponse response)
+        {
+            DataContractJsonSerializer jsonSerializer = new DataContractJsonSerializer(typeof(Response));
+            object objResponse = jsonSerializer.ReadObject(response.GetResponseStream());
+            Response jsonResponse
+            = objResponse as Response;
+            return jsonResponse;
+        }
+
+        private Response MakeRequest(int size, int xOrigin, int yOrigin, int zOrigin)
+        {
+            try
+            {
+                Query queryParams = new Query(size, xOrigin, yOrigin, zOrigin);
+                HttpWebRequest request = GenerateWebRequest(queryParams);
+
                 using (HttpWebResponse response = request.GetResponse() as HttpWebResponse)
                 {
                     if (response.StatusCode != HttpStatusCode.OK)
+                    {
                         throw new Exception(String.Format(
-                        "Server error (HTTP {0}: {1}).",
-                        response.StatusCode,
-                        response.StatusDescription));
+                            "Server error (HTTP {0}: {1}).",response.StatusCode,response.StatusDescription));
+                    }
 
-                    //StreamReader st = new StreamReader(response.GetResponseStream());
-                    //Console.Write("JSON form of Response object: ");
-                    //Console.WriteLine(st.ReadToEnd());
-                    DataContractJsonSerializer jsonSerializer = new DataContractJsonSerializer(typeof(Response));
-                    object objResponse = jsonSerializer.ReadObject(response.GetResponseStream());
-                    Response jsonResponse
-                    = objResponse as Response;
-                    return jsonResponse;
+                    return GenerateJsonResponse(response);
+
                 }
             }
             catch (Exception e)
